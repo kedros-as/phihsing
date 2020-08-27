@@ -1,0 +1,31 @@
+baseURL = "https://kedros.sk/phishing/"
+languageCode = "sk-SK"
+title = "Ako bojovať proti phishingu"
+disableKinds = ["sitemap", "RSS"]
+theme = "hugo-webslides"
+tags = ["slide", "presentation", "responsive", "landing page"]
+features = ["webslides.js", "pre-made template", "shortcodes"]
+
+[params]
+  author = "Kedros, a.s."
+  homepage = "www.kedros.sk"
+  customcss = [ "custom.css" ]
+
+[params.webslides]
+  banner = false
+  slideshow = true
+  vertical = false
+  autoslide = false
+  changeOnClick = true
+  disableLoop = true
+  minWheelDelta = 40
+  disableNavigateOnScroll = false
+  scrollWait = 450
+  slideOffset = 50
+  hideIndex = true
+
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+    unsafe = true
