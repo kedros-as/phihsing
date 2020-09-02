@@ -1,15 +1,17 @@
-baseURL = "https://kedros.sk/phishing/"
+baseURL = "https://kedros-as.github.io/phishing/"
 languageCode = "sk-SK"
 title = "Ako bojovať proti phishingu"
 disableKinds = ["sitemap", "RSS"]
 theme = "hugo-webslides"
 tags = ["slide", "presentation", "responsive", "landing page"]
 features = ["webslides.js", "pre-made template", "shortcodes"]
+publishDir = "docs"
 
 [params]
   author = "Kedros, a.s."
   homepage = "www.kedros.sk"
   customcss = [ "custom.css" ]
+
 
 [params.webslides]
   banner = false

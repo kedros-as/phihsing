@@ -174,11 +174,9 @@ Príponu .php programovacieho jazyka PHP ťažko nájdeš na veľkých a známyc
 
 ---
 <!-- : .wrap .size-40 -->
-<center>[{{< figure src="kedros.sk.notice-outlook.png" alt="Phishingový web" width="50%" >}}](kedros.sk.notice-outlook.png)</center>
+<center>[{{< figure src="kedros.sk.notice-outlook.png" alt="Phishingový web" width="75%" >}}](kedros.sk.notice-outlook.png)</center>
 
-Túto správu už poznáš. Teraz si ale všimni URI. Je dlhá a podozrivá.
-
-URI ukazuje na server firebasestorage.googleapis.com, ale v parametroch je ešte vidno niečo.appspot.com.
+Túto správu už poznáš. Teraz si ale všimni URI. Je dlhá a podozrivá. Ukazuje na server firebasestorage.googleapis.com, ale v parametroch je ešte vidno niečo.appspot.com.
 
 googleapis.com spraví presmerovanie na niečo.appspot.com. Tým sa útočník snaží zakryť skutočnú adresu.
 
